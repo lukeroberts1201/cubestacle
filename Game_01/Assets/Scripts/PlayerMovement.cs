@@ -34,5 +34,27 @@ public class PlayerMovement : MonoBehaviour {
         {
             FindObjectOfType<GameManager>().EndGame();
         }
+
+        foreach (Touch touch in Input.touches)
+        {
+            if (touch.position.x < Screen.width / 2)
+            {
+                MoveLeft();
+            }
+            else if (touch.position.x > Screen.width / 2)
+            {
+                MoveRight();
+            }
+        }
+    }
+
+    void MoveRight()
+    {
+        rb.AddForce(sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+    }
+
+    void MoveLeft()
+    {
+        rb.AddForce(-sideForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
     }
 }

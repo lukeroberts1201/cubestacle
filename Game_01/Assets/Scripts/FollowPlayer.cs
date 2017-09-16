@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour {
 
 
 
-	void Update () {
+	void FixedUpdate () {
         transform.position = player.position + offset;
 	}
 }
