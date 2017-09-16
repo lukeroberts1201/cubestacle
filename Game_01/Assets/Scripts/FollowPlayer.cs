@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour {
     public Vector3 offset; //Vector 3 stores 3 floats
 
 
-	// Update is called once per frame
+
 	void Update () {
         transform.position = player.position + offset;
 	}
