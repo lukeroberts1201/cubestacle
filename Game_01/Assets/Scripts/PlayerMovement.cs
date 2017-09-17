@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 
     //Public used so it can be used in the inspector
     public float fowardForce = 2000f;
-    public float sideForce = 500f;
+    public float sideForce = 300f;
 
 	// Use this for initialization
 	void Start () {

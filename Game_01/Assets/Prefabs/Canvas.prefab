@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 224455561029200658}
   - component: {fileID: 222592374012860244}
   - component: {fileID: 114293717689586340}
-  - component: {fileID: 114584385020020138}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -187,19 +186,6 @@ MonoBehaviour:
   m_Text: 'COMPLETE
 
 '
---- !u!114 &114584385020020138
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1310537469521040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6876d45a9f7c9441be15b7566a7cbc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  scoreText: {fileID: 114293717689586340}
 --- !u!114 &114616853545048912
 MonoBehaviour:
   m_ObjectHideFlags: 1
