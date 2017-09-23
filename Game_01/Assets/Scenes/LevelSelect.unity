@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -522,6 +522,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224599900790760180, guid: 92cc57f50ee3629489bc74b94575cca7,
     type: 2}
   m_PrefabInternal: {fileID: 1438763728}
+--- !u!114 &492189739 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 558998161}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &541507463
 Prefab:
   m_ObjectHideFlags: 0
@@ -1268,6 +1274,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &770635551 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 173853192}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &808487402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,6 +1431,10 @@ MonoBehaviour:
   - {fileID: 1354388104}
   - {fileID: 541507464}
   - {fileID: 488092563}
+  - {fileID: 770635551}
+  - {fileID: 1795965801}
+  - {fileID: 1518469347}
+  - {fileID: 492189739}
 --- !u!224 &890607262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2101,6 +2117,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92cc57f50ee3629489bc74b94575cca7, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1518469347 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 581703460}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1717516206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,6 +2212,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795965801 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1246040178}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &2128436336
 GameObject:
   m_ObjectHideFlags: 0
