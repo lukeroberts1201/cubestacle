@@ -8,8 +8,11 @@ public class LevelComplete : MonoBehaviour {
 
     public void LoadNextLevel()
     {
-        
-        PlayerPrefs.SetInt("levelReached", levelToUnlock);
+
+        if (levelToUnlock > PlayerPrefs.GetInt("levelReached", 1))
+        {
+            PlayerPrefs.SetInt("levelReached", levelToUnlock);
+        }
 
         SceneManager.LoadScene("LevelSelect");
     }
