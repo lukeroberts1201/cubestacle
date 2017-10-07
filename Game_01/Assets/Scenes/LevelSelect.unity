@@ -1437,6 +1437,8 @@ MonoBehaviour:
   - {fileID: 1795965801}
   - {fileID: 1518469347}
   - {fileID: 492189739}
+  - {fileID: 1076407288}
+  - {fileID: 1466415787}
 --- !u!224 &890607262
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1599,6 +1601,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224599900790760180, guid: 92cc57f50ee3629489bc74b94575cca7,
     type: 2}
   m_PrefabInternal: {fileID: 1076407286}
+--- !u!114 &1076407288 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1076407286}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1221678610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,6 +2415,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224599900790760180, guid: 92cc57f50ee3629489bc74b94575cca7,
     type: 2}
   m_PrefabInternal: {fileID: 1466415785}
+--- !u!114 &1466415787 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1466415785}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!114 &1518469347 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114511169076233294, guid: 92cc57f50ee3629489bc74b94575cca7,
