@@ -12,4 +12,9 @@ public class Menu : MonoBehaviour {
     {
         PlayerPrefs.DeleteAll();
     }
+
+	public void LoadOptions()
+	{
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 2);
+	}
 }
